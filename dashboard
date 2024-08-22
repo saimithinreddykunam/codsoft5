@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - University Attendance App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome, <span id="user-email"></span></h2>
+        <div id="user-role">
+            <!-- Content will be dynamically loaded based on user role -->
+        </div>
+        <div id="attendance-section">
+            <!-- Attendance form or list will appear here -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
